@@ -1,0 +1,562 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.headernav li{
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 14px;
+}
+
+.headernav li a{
+    color: #626262 !important;
+}
+
+.getstarted{
+    padding: 10px;
+    width: 60px;
+}
+
+#login{
+    background: #e82b22;
+    color: #fff !important;
+}
+
+#join{
+    background: #2f2f2f;
+    color: #fff !important;
+}
+
+/*Big Picture Area*/
+
+.bigpicture{
+    background-image: url('../img/bigpicture.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding-top: 200px;
+    padding-bottom: 240px;
+}
+
+.pictureheading{
+    color: #dc1611;
+    font-size: 68px;
+    font-weight: 300;
+}
+
+.secondheading{
+    font-size: 30px;
+    color: #2f2f2f;
+}
+
+.picturetext{
+    color: #636363;
+    font-size: 16px;
+}
+
+.picturebuttons{
+    padding: 25px 35px 25px 35px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.picturebuttons:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttons{
+    margin-top: 40px;
+}
+
+#areumodel{
+    background: #e82b22;
+}
+
+#areuagency{
+    background: #2f2f2f;
+}
+
+/*Tabs Area*/
+.tabs{
+    background: #2f2f2f;
+}
+
+#activate{
+    background: #dc1611;
+}
+
+.tabstext{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.tabsarea{
+    padding-top: 15px;
+}
+
+.tabsarea:hover{
+    background: #dc1611;
+}
+
+.tabshover:hover{
+    text-decoration: none;
+}
+
+/*Create Your Profile Area*/
+.profilearea{
+    background: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.profileheading{
+    font-size: 35px;
+}
+
+.profiletext{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #636363;
+    margin-bottom: 30px;
+}
+
+.signuptext{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.signuptext:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+#emailsign{
+    background: #e4241c;
+}
+
+#facebooksign{
+    background: #4a68a8;
+}
+
+#instasign{
+    background: linear-gradient(to bottom,  #7926ae 0%,#b21d79 35%,#e23843 55%,#ef5331 100%); 
+}
+
+/*Form Area*/
+.borderss{
+    border-left: none;
+    border-top: none; 
+    border-right: none;
+    width: 100%;
+}
+
+.aestrik{
+    color: red;
+}
+
+.selectborders{
+    border-left: none;
+    border-top: none; 
+    border-right: none;
+}
+
+.experiment{
+    margin: 5px;
+}
+
+.inputtext{
+    font-size: 14px;
+    color: #626262;
+}
+
+.toc{
+    color: #dc1611;
+}
+
+.continuebutton{
+    background: #e72a20;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 40px 15px 40px;
+}
+
+.continuebutton:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Category Section*/
+.categoryarea{
+    padding-top: 80px;
+}
+
+.categoryheading{
+    size: 35px;
+    color: #2f2f2f
+}
+
+.categorytext{
+    size:18px;
+    color: #626262;
+    padding: 0px 330px 0px 330px;
+}
+
+.redline{
+    background: #ea2f25;
+    width: 150px;
+    height: 3px;
+}
+
+.specialcasemargin{
+    margin-top: 1.95rem;
+}
+
+.categorycolshover{
+    color: #2f2f2f;
+    font-size: 16px;
+}
+
+.categorycolshover:hover{
+    text-decoration: none;
+    color: #f44336;
+    cursor: pointer;
+}
+
+.modelzero{
+    background-image: url('../img/model0.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.modelone{
+    background-image: url('../img/model1.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 340px;
+    width:100%;
+
+}
+
+.modeltwo{
+    background-image: url('../img/model2.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 340px;
+    width:100%;
+
+}
+
+.modelthree{
+    background-image: url('../img/model3.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 340px;
+    width:100%;
+
+}
+
+.modelfour{
+    background-image: url('../img/model4.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 340px;
+    width:100%;
+
+}
+
+.modelfive{
+    background-image: url('../img/model5.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 340px;
+    width:100%;
+
+}
+
+.modelsix{
+    background-image: url('../img/model6.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 340px;
+    width:100%;
+}
+
+.models:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*Professional Area*/
+.professional{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.professionalheading{
+    font-size: 35px;
+    color: #2f2f2f;
+}
+
+.professionaltext{
+    font-size: 18px;
+    color: #626262;
+}
+
+.professionalrow{
+    margin-top: 50px;
+}
+
+.professionalclicks:hover{
+    cursor: pointer;
+}
+
+.professionalanchored:hover{
+    text-decoration: none;
+}
+
+.professionalcoltext{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2f2f2f;
+}
+
+.professionalcolpara{
+    font-size: 14px;
+    color: #626262;
+}
+
+.probtnmargin{
+    margin-top: 50px;
+}
+
+.professionalbuttonslinks{
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+}
+
+.professionalbuttonslinks:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#viewmorefeatures{
+    background-color: #e92d23;
+    color: #fff;
+}
+
+#createyourprofile{
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+/*Numbers Area*/
+.numbersarea{
+    background-color: #2f2f2f;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.middlenumber{
+    border-left: 1px solid #474747;
+    border-right: 1px solid #ececec;
+    border-top: none;
+    border-bottom: none;
+}
+    
+
+.numberheading{
+    color: #fff;
+    font-size: 36px;
+}
+
+.numberdetails{
+    color: #959595;
+    font-size: 16px;
+}
+
+/*Advertisers Area --> Left*/
+.advertisersarea{
+    padding-top: 80px;
+}
+
+.leftadvertheading{
+    font-size: 35px;
+}
+
+.tobebold{
+    font-weight: 700;
+}
+
+.forboxshadow{
+    padding: 40px 10px 40px 10px;
+}
+
+.forboxshadow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#imageone{
+    margin-top: 20px;
+}
+
+#imagethree{
+    margin-top: 20px;
+}
+
+#imagefour{
+    margin-top: 35px;
+}
+
+#imagesix{
+    margin-top: 30px;
+}
+/*Advertisers Area --> Right*/
+.rightadvertheading{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.rightadverttext{
+    font-size: 18px;
+    font-weight: 300;
+    color: #626262;
+}
+
+/*Get the App Area*/
+.gettheappbackground{
+    background-image: url('../img/gettheappbackground.jpg');
+    background-position: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.contentarearight{
+    padding-top: 100px;
+}
+
+.getappheading{
+    font-size: 35px;
+    color: #2f2f2f;
+}
+
+.getappmoto{
+    font-size: 18px;
+    color: #2f2f2f;
+}
+
+.getapppara{
+    font-size: 16px;
+    color: #626262
+}
+
+.storebackgrounds{
+    background-color: black;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.storeanchor:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.applelogo{
+    color: #fff;
+    font-size: 30px;
+}
+
+.appleheading{
+    font-size: 10px;
+    line-height: 0.5;
+    color: #fff;
+}
+
+.applestore{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.playlogo{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 2px;
+}
+
+.playstore{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.numbers{
+    font-size: 61px;
+    background: linear-gradient(to bottom,  #fff 0%,#fff 50%, #D3D3D3 50%,#D3D3D3 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*Footer Area*/
+.footerarea{
+    background-color: #fcfcfc;
+    padding-top: 100px;
+    margin-top: -65px;
+}
+
+.modeliquetext{
+    font-size: 14px;
+    color: #626262;
+    margin-top: 20px;
+}
+
+.newslettersubs{
+    font-size: 20px;
+    color: #2f2f2f;
+}
+
+.newsletterpara{
+    font-size: 14px;
+    color: #626262;
+    margin-top: 35px;
+}
+
+.form-control{
+    font-size: 14px !important;
+    color: #626262 !important;
+    border-radius: 0px !important;
+}
+
+.btn{
+    font-size: 14px !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.listsocial{
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+
+.listsocial li{
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    font-size: 30px;
+    color: #626262;
+}
+
+.listsocial a:hover{
+    text-decoration: none;
+}
+
+#fb:hover{
+     
+}
